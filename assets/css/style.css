@@ -335,6 +335,9 @@ section {
 --------------------------------------------------------------*/
 #perfil2{
   border-radius: 10px;
+  box-shadow: 14px -10px 13px 0px rgba(0,0,0,0.53);
+-webkit-box-shadow: 14px -10px 13px 0px rgba(0,0,0,0.53);
+-moz-box-shadow: 14px -10px 13px 0px rgba(0,0,0,0.53);
 }
 
 .about .content h3 {
@@ -366,7 +369,7 @@ section {
 }
 
 .about .content p:last-child {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 .aptitudes{
@@ -619,7 +622,9 @@ form{
 .portfolio-details {
   padding-top: 40px;
 }
-
+.tecnologias img{
+  height: 68px;
+}
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
